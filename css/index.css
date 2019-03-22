@@ -66,6 +66,16 @@ p {
     line-height: 1.4;
 }
 
+
+
+/**===================================
+        Start of my code
+=====================================*/
+
+:root {
+    --faded-white: rgba(255,255,255,0.8)
+}
+
 header {
     display: flex;
     align-items: baseline;
@@ -79,13 +89,14 @@ header nav {
     justify-content: space-evenly;
 }
 
-header img {
-
-}
-
 header a {
     text-decoration: none;
     color: black;
+}
+
+img.jumbo {
+    width: 100%;
+    margin-bottom: 1.25em;
 }
 
 .container {
@@ -127,7 +138,7 @@ header a {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;
+    color: var(--faded-white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,6 +197,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: var(--faded-white);
     text-decoration: none;
 }
