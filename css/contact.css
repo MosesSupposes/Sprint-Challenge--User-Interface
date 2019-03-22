@@ -95,6 +95,53 @@ header a {
 }
 
 
+/**==================================
+            Form styles
+====================================*/
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 1em; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+select {
+    display: block;
+    width: 25%;
+    height: 3em;
+    padding: 2em;
+}
+
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*==============================*/
+
+
+
 footer {
     width: 100%;
     background: black;
