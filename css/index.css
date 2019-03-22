@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -125,6 +124,30 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/**==================================
+        Background colors
+====================================*/
+
+.bg-teal { background: teal }
+
+.bg-gold { background: gold }
+
+.bg-cadetblue { background: cadetblue }
+
+.bg-coral { background: coral }
+
+.bg-crimson { background: crimson }
+
+.bg-forestgreen { background: forestgreen }
+
+.bg-darkorchid { background: darkorchid }
+
+.bg-hotpink { background: hotpink }
+
+.bg-indigo { background: indigo }
+
+.bg-dodgerblue { background: dodgerblue }
 
 footer {
     width: 100%;
