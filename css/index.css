@@ -94,11 +94,6 @@ header a {
     color: black;
 }
 
-img.jumbo {
-    width: 100%;
-    margin-bottom: 1.25em;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +105,10 @@ img.jumbo {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom: 1.25em;
 }
 
 .top-content .text-container {
