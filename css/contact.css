@@ -95,10 +95,23 @@ header a {
 }
 
 
+
 /**==================================
             Form styles
 ====================================*/
 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -117,25 +130,31 @@ select {
     padding: 2em;
 }
 
-  
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
 .form-container {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+    margin: auto 0;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 15em;
+}
+
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container main {
+    height: 80%;
+    background-color: #f2f2f2;
 }
 
 /*==============================*/
@@ -143,6 +162,7 @@ input[type=submit]:hover {
 
 
 footer {
+    position: absolute;
     width: 100%;
     background: black;
 }
