@@ -51,6 +51,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
+    Git is a valuable tool for development teams because it makes collabortation and version control easy. Core features such as forking/ branching, issues, milestones, and watch, enables enhanced coordination and cohesion between teams -- even if they're remote!
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
