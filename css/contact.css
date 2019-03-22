@@ -155,6 +155,7 @@ select {
 .container main {
     height: 80%;
     background-color: #f2f2f2;
+    border-radius: 7px;
 }
 
 /*==============================*/
