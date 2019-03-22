@@ -167,7 +167,7 @@ header a {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 3em 2%;
     justify-content: space-around;
 }
 
