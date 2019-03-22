@@ -37,10 +37,13 @@ Edit this document to include your answers after each question. Make sure to lea
     Semantic HTML is a set tags that add more structural meaning to your content. The majority of them are semantic abstractions over divs (which are commonly overused). If you were to only use divs to separate your content, your content would be harder for other developers to parse. HTML is meant to provide the structure, or scaffolding of your website/ web app, so it's obvious that you would want it to be structured in a way that conveys meaning. When you add a `<nav>` around your navigation links, or an `article` tag around a self-contained block of content, the architecture of your content will become self-documenting, and as a result, becomes much easier -- for yourself and others -- to grok.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
     `display: block` takes up the full width of its parent container by default whereas `display:inline` only takes up the width 
     of its content by default. Also, you can specify the height/width of a block element, but inline elements will ignore these properties.
 
 3. What are the 4 areas of the box model?
+
+    The four areas of the box model are the margin edge, border edge, padding edge , and content edge.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
