@@ -94,6 +94,21 @@ header a {
     color: black;
 }
 
+.btn {
+    flex-basis: 100%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: .75em 2em;
+}
+
+.btn-info:hover {
+    background: cadetblue;
+    color: white;
+    transform: scale(1.1);
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,40 +127,47 @@ header a {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+    width: 100%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    margin-top: 1em;
 }
 
-.middle-content .boxes {
+.middle-content p {
+    margin-bottom: 1em;
+}
+
+.middle-content .btn {
+    align-self: flex-start;
+}
+
+.middle-content .text-container {
+    flex-basis: 40%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3em;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: var(--faded-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .text-container:nth-of-type(3),
+.middle-content .text-container:nth-of-type(4) {
+    margin-top: 2em;
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 3em 2%;
     justify-content: space-around;
 }
 
@@ -156,30 +178,6 @@ header a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-/**==================================
-        Background colors
-====================================*/
-
-.bg-teal { background: teal }
-
-.bg-gold { background: gold }
-
-.bg-cadetblue { background: cadetblue }
-
-.bg-coral { background: coral }
-
-.bg-crimson { background: crimson }
-
-.bg-forestgreen { background: forestgreen }
-
-.bg-darkorchid { background: darkorchid }
-
-.bg-hotpink { background: hotpink }
-
-.bg-indigo { background: indigo }
-
-.bg-dodgerblue { background: dodgerblue }
 
 footer {
     width: 100%;
